@@ -36,7 +36,7 @@ header{
 
 p{
     font-size: 20px;
-    display: inline-block;
+    display: inline;
 }
 
 #mainImage{
@@ -62,6 +62,8 @@ footer{
     border: 5px solid gold;
     border-radius: 5px;
     padding: 3px;
+    display: block;
+    margin: 0;
 }
 
 div img:hover{
@@ -71,7 +73,6 @@ div img:hover{
 div .gameName{
     text-align: center;
     font-weight: bold;
-    display: inline-block;
 }
 
 #likeGalleryDiv div{
